@@ -6,7 +6,17 @@
 /*   By: tomek <tomek@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/02 14:08:55 by tomek             #+#    #+#             */
-/*   Updated: 2024/03/02 14:17:42 by tomek            ###   ########.fr       */
+/*   Updated: 2024/03/02 15:58:46 by tomek            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
+
+int	ft_isalpha(int c);
+
+int	ft_isalpha(int c)
+{
+	if (((c >= 'a') && (c <= 'z')) || ((c >= 'A') && (c <= 'Z')))
+		return  (1);
+	return (0);
+}
