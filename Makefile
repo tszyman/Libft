@@ -8,7 +8,7 @@ CFLAGS = -Wall -Werror -Wextra
 NAME = libft.a
 
 # Source files (here should land all other c libraries seperated with space)
-SRCS = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isprint.c ft_isascii.c
+SRCS = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isprint.c ft_isascii.c ft_strlen.c
 
 # Object files
 OBJS = $(SRCS:.c=.o)
