@@ -8,4 +8,9 @@
 *.o
 
 # ignore test program
-tests.c
+testy/test_ft_isalnum
+testy/test_ft_isalpha
+testy/test_ft_isascii
+testy/test_ft_isdigit
+testy/test_ft_isprint
+libft.a
