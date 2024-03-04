@@ -6,7 +6,7 @@
 /*   By: tomek <tomek@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/02 17:15:37 by tomek             #+#    #+#             */
-/*   Updated: 2024/03/03 20:35:43 by tomek            ###   ########.fr       */
+/*   Updated: 2024/03/04 12:05:29 by tszymans         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,5 +26,4 @@ int	main(void)
 	printf("My v. ft_isprint for 32 (ASCII 'space'): %d\n", ft_isprint(32));
 	printf("Original isprint for null : %d\n", isprint(0));
 	printf("My v. ft_isprint for null : %d\n", ft_isprint(0));
-	
 }

@@ -6,7 +6,7 @@
 /*   By: tomek <tomek@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/02 17:15:37 by tomek             #+#    #+#             */
-/*   Updated: 2024/03/03 20:25:27 by tomek            ###   ########.fr       */
+/*   Updated: 2024/03/04 12:05:50 by tszymans         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,5 +24,4 @@ int	main(void)
 	printf("My v. ft_isalpha for 84 (ASCII 'T'): %d\n", ft_isalpha(84));
 	printf("Original isalpha for null : %d\n", isalpha(0));
 	printf("My v. ft_isalpha for null : %d\n", ft_isalpha(0));
-	
 }

@@ -6,7 +6,7 @@
 /*   By: tomek <tomek@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/02 17:15:37 by tomek             #+#    #+#             */
-/*   Updated: 2024/03/03 20:54:30 by tomek            ###   ########.fr       */
+/*   Updated: 2024/03/04 12:05:10 by tszymans         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,5 +24,4 @@ int	main(void)
 	printf("My v. ft_isascii for 127: %d\n", ft_isascii(127));
 	printf("Original isascii for 128: %d\n", isascii(128));
 	printf("My v. ft_isascii for 128: %d\n", ft_isascii(128));
-	
 }

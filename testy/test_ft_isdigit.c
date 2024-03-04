@@ -6,7 +6,7 @@
 /*   By: tomek <tomek@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/02 17:15:37 by tomek             #+#    #+#             */
-/*   Updated: 2024/03/03 20:25:25 by tomek            ###   ########.fr       */
+/*   Updated: 2024/03/04 12:05:39 by tszymans         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,5 +24,4 @@ int	main(void)
 	printf("My v. ft_isdigit for 84 (ASCII 'T'): %d\n", ft_isdigit(84));
 	printf("Original isdigit for null : %d\n", isdigit(0));
 	printf("My v. ft_isdigit for null : %d\n", ft_isdigit(0));
-	
 }
