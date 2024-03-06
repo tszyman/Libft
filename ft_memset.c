@@ -6,7 +6,7 @@
 /*   By: tomek <tomek@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/04 22:11:21 by tomek             #+#    #+#             */
-/*   Updated: 2024/03/04 22:16:34 by tomek            ###   ########.fr       */
+/*   Updated: 2024/03/06 01:07:01 by tomek            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,8 @@ void	*ft_memset(void *s, int c, size_t n)
 
 	while (i < n)
 	{
-		str[i] = c;
+		*str = c;
+		str++;
 		i++;
 	}
 	return (s);
