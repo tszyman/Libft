@@ -6,15 +6,15 @@
 /*   By: tomek <tomek@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/03 21:03:54 by tomek             #+#    #+#             */
-/*   Updated: 2024/03/07 21:13:21 by tomek            ###   ########.fr       */
+/*   Updated: 2024/03/10 11:31:54 by tomek            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_strlen(const char *str);
+size_t	ft_strlen(const char *str);
 
-int	ft_strlen(const char *str)
+size_t	ft_strlen(const char *str)
 {
 	int	strlen;
 
