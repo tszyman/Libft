@@ -6,7 +6,7 @@
 /*   By: tomek <tomek@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/10 12:27:38 by tomek             #+#    #+#             */
-/*   Updated: 2024/03/10 15:43:02 by tomek            ###   ########.fr       */
+/*   Updated: 2024/03/12 21:56:14 by tomek            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,11 +21,11 @@ char	*ft_strrchr(const char *s, int c)
 
 	slen = ft_strlen(s);
 	p = (char *)s + slen;
-	while ((char)c != *p)
+	while (p >= s)
 	{
-		if (p < s)
-			return (0);
+		if (*p == (char)c)
+			return (p);
 		p--;
 	}
-	return (p);
+	return (0);
 }
