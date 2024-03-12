@@ -17,9 +17,9 @@ int	main(void)
 {
 	printf("********** ft_strlen **********\n");
 	printf("Original strlen for 'tomek': %lu\n", strlen("tomek"));
-	printf("My v. ft_strlen for 'tomek': %d\n", ft_strlen("tomek"));
+	printf("My v. ft_strlen for 'tomek': %ld\n", ft_strlen("tomek"));
 	printf("Original strlen for '': %lu\n", strlen(""));
-	printf("My v. ft_strlen for '': %d\n", ft_strlen(""));
+	printf("My v. ft_strlen for '': %ld\n", ft_strlen(""));
 	printf("Original strlen for '123': %lu\n", strlen("123"));
-	printf("My v. ft_strlen for '123': %d\n", ft_strlen("123"));
+	printf("My v. ft_strlen for '123': %ld\n", ft_strlen("123"));
 }
