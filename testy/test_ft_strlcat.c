@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   test_ft_strlcat.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tomek <tomek@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tszymans <tszymans@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/07 21:27:09 by tomek             #+#    #+#             */
-/*   Updated: 2024/03/10 12:23:19 by tomek            ###   ########.fr       */
+/*   Updated: 2024/03/13 17:56:39 by tszymans         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <bsd/string.h>
 
 int	main(void)
 {
