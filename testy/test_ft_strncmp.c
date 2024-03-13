@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   test_ft_strncmp.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tomek <tomek@student.42.fr>                +#+  +:+       +#+        */
+/*   By: tszymans <tszymans@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/10 16:04:41 by tomek             #+#    #+#             */
-/*   Updated: 2024/03/10 16:41:54 by tomek            ###   ########.fr       */
+/*   Updated: 2024/03/13 18:00:39 by tszymans         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ int	main(void)
 	printf("Comparing %ld bytes.\n", n);
 	ret = ft_strncmp(s1, s2, n);
 	printf("return ft_strncmp: %d\n", ret);
-	
+
 	printf("***   strncmp original   ***\n");
 	printf("s1: %s\n", s1);
 	printf("s2: %s\n", s2);
@@ -40,5 +40,5 @@ int	main(void)
 	if (ret == ret_orig)
 		printf(ANSI_COLOR_GREEN "OK!\n" ANSI_COLOR_RESET);
 	else
-		printf(ANSI_COLOR_RED "OK!\n" ANSI_COLOR_RESET);
+		printf(ANSI_COLOR_RED "NOK!\n" ANSI_COLOR_RESET);
 }
