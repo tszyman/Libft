@@ -1,5 +1,5 @@
 # Compiler
-CC = cc
+CC = clang
 
 # Compiler flags
 CFLAGS = -Wall -Werror -Wextra
@@ -21,7 +21,7 @@ PROGS = $(SRCS: .c=)
 # Default rule
 all: $(SRCS:.c=)
 
-# Main compiling rule cc -Wall -Werror -Wextra test_ft_isalnum.c -I.. -L../ -lft -o test_ft_isalnum
+# Main compiling rule clang -Wall -Werror -Wextra test_ft_isalnum.c -I.. -L../ -lft -o test_ft_isalnum
 %: %.c
 	$(CC) $(CFLAGS) -I.. $< -L../ -lft -o $@
 
