@@ -23,7 +23,7 @@ all: $(SRCS:.c=)
 
 # Main compiling rule clang -Wall -Werror -Wextra test_ft_isalnum.c -I.. -L../ -lft -o test_ft_isalnum
 %: %.c
-	$(CC) $(CFLAGS) -I.. $< -L../ -lft -o $@
+	$(CC) $(CFLAGS) -I.. $< -L../ -lft -lbsd -o $@
 
 # Rule for cleaning object files
 clean:
