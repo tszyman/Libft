@@ -6,7 +6,7 @@
 /*   By: tomek <tomek@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/29 22:19:43 by tomek             #+#    #+#             */
-/*   Updated: 2024/03/14 20:44:44 by tomek            ###   ########.fr       */
+/*   Updated: 2024/03/14 21:02:14 by tomek            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,30 +16,28 @@ int	ft_atoi(const char *nptr);
 
 int	ft_atoi(const char *nptr)
 {
-	char	*p;
 	int		sign;
 	int		nbr;
 
-	p = (char *)nptr;
 	nbr = 0;
-	if (*p == '\0')
+	if (*nptr == '\0')
 		return (0);
 	sign = 1;
-	while (*p == ' ' || *p == '\f' || *p == '\n' \
-	|| *p == '\r' || *p == '\t' || *p == '\v')
+	while (*nptr == ' ' || *nptr == '\f' || *nptr == '\n' \
+	|| *nptr == '\r' || *nptr == '\t' || *nptr == '\v')
 	{
-		p++;
+		nptr++;
 	}
-	if (*p == '-' || *p == '+')
+	if (*nptr == '-' || *nptr == '+')
 	{
-		if (*p == '-')
+		if (*nptr == '-')
 			sign = -1;
-		p++;
+		nptr++;
 	}
-	while (*p >= '0' && *p <= '9')
+	while (*nptr >= '0' && *nptr <= '9')
 	{
-		nbr = nbr * 10 + (*p - 48);
-		p++;
+		nbr = nbr * 10 + (*nptr - 48);
+		nptr++;
 	}
 	return (sign * nbr);
 }
