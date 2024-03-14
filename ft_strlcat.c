@@ -6,7 +6,7 @@
 /*   By: tomek <tomek@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/09 20:40:55 by tomek             #+#    #+#             */
-/*   Updated: 2024/03/10 12:05:32 by tomek            ###   ########.fr       */
+/*   Updated: 2024/03/14 20:37:26 by tomek            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t n)
 	i = 0;
 	len_dst = ft_strlen(dst);
 	len_src = ft_strlen(src);
-	s = (char *)src;	
+	s = (char *)src;
 	if (n == 0 && !dst)
 		return (len_src);
 	if (n <= len_dst)

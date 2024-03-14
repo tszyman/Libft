@@ -6,7 +6,7 @@
 /*   By: tomek <tomek@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/05 20:57:50 by tomek             #+#    #+#             */
-/*   Updated: 2024/03/07 20:38:04 by tomek            ###   ########.fr       */
+/*   Updated: 2024/03/14 20:41:58 by tomek            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,8 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 {
 	unsigned char	*dst;
 	unsigned char	*source;
-	char	sign;
-	size_t	i;
+	char			sign;
+	size_t			i;
 
 	sign = 1;
 	if (!dest && !src)

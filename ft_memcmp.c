@@ -6,7 +6,7 @@
 /*   By: tomek <tomek@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/10 17:16:08 by tomek             #+#    #+#             */
-/*   Updated: 2024/03/10 18:26:24 by tomek            ###   ########.fr       */
+/*   Updated: 2024/03/14 20:42:21 by tomek            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,5 +31,5 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 		str2++;
 		n--;
 	}
-	return(0);
+	return (0);
 }

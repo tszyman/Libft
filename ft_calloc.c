@@ -6,7 +6,7 @@
 /*   By: tomek <tomek@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/11 11:28:59 by tomek             #+#    #+#             */
-/*   Updated: 2024/03/11 12:00:07 by tomek            ###   ########.fr       */
+/*   Updated: 2024/03/14 20:42:38 by tomek            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	*ft_calloc(size_t nmemb, size_t size)
 {
 	long	ovflow;
 	void	*array;
-	
+
 	ovflow = nmemb * size;
 	if (ovflow >= 2147483647)
 		return (0);
