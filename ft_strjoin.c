@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tszymans <tszymans@student.42.fr>          +#+  +:+       +#+        */
+/*   By: tomek <tomek@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/13 18:14:58 by tszymans          #+#    #+#             */
-/*   Updated: 2024/03/13 18:51:54 by tszymans         ###   ########.fr       */
+/*   Updated: 2024/03/15 22:27:12 by tomek            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 
 	s1_len = ft_strlen(s1);
 	s2_len = ft_strlen(s2);
-	new = (char *)calloc((s1_len + s2_len + 1), sizeof(char));
+	new = (char *)ft_calloc((s1_len + s2_len + 1), sizeof(char));
 	if (!new)
 		return (0);
 	ft_strlcpy(new, s1, s1_len + 1);
