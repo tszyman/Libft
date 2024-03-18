@@ -45,4 +45,4 @@ all: $(NAME)
 re: fclean all
 
 # Phony targets to avoid conflicts with file names
-.PHONY: all clean fclean
+.PHONY: all re clean fclean
